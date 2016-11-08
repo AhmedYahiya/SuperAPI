@@ -27,7 +27,7 @@ ext {
     LOCAL_APP_BIN_PATH = "$project.buildDir/libs/$APP_BIN_NAME"
     MAIN_CLASS = "Main"
 
-    PROD_IP = "139.59.153.110"
+    PROD_IP = "138.68.92.78"
     PROD_USER = "root"
     PROD_KEY_PATH = project.hasProperty("identity") ? project.property("identity") : ""
     APP_IDENTIFIER = project.hasProperty("app_id") ? project.property("app_id") : ""
